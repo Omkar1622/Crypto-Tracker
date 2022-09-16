@@ -2,7 +2,7 @@
 
 // Go to path my-app and run => npm i react-router-dom@6
 
-// TImestamp =>  25:30 
+// Timestamp =>  33:00 
 
 import React, {useState, useEffect} from "react";
 import axios from 'axios';
@@ -41,7 +41,7 @@ function App() {
      <Routes>
         {/* For Home Page */}
         <Route path = '/' element = { <Coins coins = {coins} /> } />
-        
+
         {/* For all The separate pages of Coin */}
         <Route path = '/coin' element = {<Coin />} >
             <Route path = ':coinId' element = {<Coin />} />
