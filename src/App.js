@@ -2,7 +2,7 @@
 
 // Go to path my-app and run => npm i react-router-dom@6
 
-// Timestamp =>  33:00 
+// Timestamp =>  1:01:35 
 
 import React, {useState, useEffect} from "react";
 import axios from 'axios';
@@ -20,7 +20,7 @@ function App() {
 
   const [coins, setCoins] = useState([]);
 
-  const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1&sparkline=false';
+  const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=30&page=1&sparkline=false';
   
   useEffect(() => {
 
