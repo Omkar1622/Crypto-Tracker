@@ -1,8 +1,9 @@
 // Install axios and react icon Dependencies
 
-// Go to path my-app and run => npm i react-router-dom@6
+// Go to path my-app and run =>
+//  npm i react-router-dom@6
 
-// Timestamp =>  1:01:35 
+
 
 import React, {useState, useEffect} from "react";
 import axios from 'axios';
